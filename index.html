@@ -59,8 +59,9 @@
 
   <script>
     // Fizzy soda bubble animation with realistic physics
-    (function() {
+    document.addEventListener('DOMContentLoaded', function() {
       const container = document.getElementById('bubbles');
+      if (!container) return;
       const bubbles = [];
       const streamPositions = [];
       const BUBBLE_COUNT = 60;
@@ -165,7 +166,7 @@
           }
         }
       }, 150);
-    })();
+    });
   </script>
 
   <header class="header">
