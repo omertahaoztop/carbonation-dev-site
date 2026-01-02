@@ -228,10 +228,15 @@ a {
   font-weight: 900;
   color: var(--color-text);
   letter-spacing: 0.05em;
+  line-height: 1.1;
+}
+
+.logo-link {
   display: flex;
   align-items: center;
   gap: var(--space-md);
-  line-height: 1.1;
+  text-decoration: none;
+  color: inherit;
 }
 
 .logo-icon {
