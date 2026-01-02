@@ -239,6 +239,10 @@ a {
   color: inherit;
 }
 
+.logo-link:hover {
+  text-decoration: none;
+}
+
 .logo-icon {
   color: var(--color-accent);
   display: flex;
@@ -800,6 +804,9 @@ a {
 @media (max-width: 480px) {
   .logo {
     font-size: 2rem;
+  }
+
+  .logo-link {
     flex-direction: column;
     gap: var(--space-sm);
   }
